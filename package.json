@@ -4,19 +4,21 @@
   "author": {
     "name": "アレクサンダー.eth"
   },
-  "version": "0.13.0",
+  "version": "0.14.0",
   "tsup": {
     "entry": ["src/scrape.ts"],
     "splitting": false,
     "sourcemap": true,
-    "clean": true
+    "clean": true,
+    "dts": true,
+    "format": "esm"
   },
-  "main": "dist/scrape.js",
+  "main": "dist/scrape.mjs",
   "exports": {
     "main": {
-      "types": "./types/scrape.d.ts",
-      "require": "./dist/scrape.js",
-      "import": "./dist/scrape.js"
+      "types": "./dist/scrape.d.mts",
+      "require": "./dist/scrape.mjs",
+      "import": "./dist/scrape.mjs"
     }
   },
   "scripts": {
