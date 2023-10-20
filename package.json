@@ -4,15 +4,15 @@
   "author": {
     "name": "アレクサンダー.eth"
   },
-  "version": "0.11.0",
+  "version": "0.11.1",
   "main": "dist/scrape.cjs",
   "type": "module",
   "exports": {
-      "main":{
-          "types": "./types/scrape.d.ts",
-          "require": "./dist/scrape.cjs",
-          "import": "./dist/scrape.cjs"
-      }
+    "main": {
+      "types": "./types/scrape.d.ts",
+      "require": "./dist/scrape.cjs",
+      "import": "./dist/scrape.cjs"
+    }
   },
   "scripts": {
     "build": "tsup src/scrape.ts",
