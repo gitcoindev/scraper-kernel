@@ -10,8 +10,8 @@
   "exports": {
       "main":{
           "types": "./types/scrape.d.ts",
-          "require": "./dist/scrape.js",
-          "import": "./dist/scrape.js"
+          "require": "./dist/scrape.cjs",
+          "import": "./dist/scrape.cjs"
       }
   },
   "scripts": {
