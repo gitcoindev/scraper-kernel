@@ -4,8 +4,8 @@
   "author": {
     "name": "アレクサンダー.eth"
   },
-  "version": "0.6.0",
-  "main": "src/scrape.ts",
+  "version": "0.7.0",
+  "main": "dist/scrape.js",
   "type": "module",
   "exports": {
       "main":{
