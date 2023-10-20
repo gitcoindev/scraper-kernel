@@ -5,6 +5,7 @@
     "name": "アレクサンダー.eth"
   },
   "version": "0.2.0",
+  "main": "src/scrape.ts",
   "scripts": {
     "prepare": "husky install",
     "format": "run-s format:*",
@@ -20,12 +21,13 @@
     "@types/command-line-usage": "^5.0.2",
     "@types/follow-redirects": "^1.14.1",
     "@types/jest": "^29.5.2",
-    "@types/node": "^18.14.0",
+    "@types/node": "^20.8.7",
     "@types/puppeteer": "^7.0.4",
     "@types/source-map-support": "^0.5.6",
     "jest": "^29.5.0",
     "ts-jest": "^29.1.0",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "tsup": "^7.2.0"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.8.0",
@@ -47,7 +49,7 @@
     "prettier": "^2.8.4",
     "puppeteer": "^19.11.1",
     "tsx": "^3.12.3",
-    "typescript": "^4.9.5",
+    "typescript": "^5.2.2",
     "yarn-upgrade-all": "^0.7.2"
   }
 }
