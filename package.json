@@ -6,6 +6,7 @@
   },
   "version": "0.2.0",
   "main": "src/scrape.ts",
+  "types": "dist/scrape.js",
   "scripts": {
     "prepare": "husky install",
     "format": "run-s format:*",
