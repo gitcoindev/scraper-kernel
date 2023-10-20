@@ -4,10 +4,17 @@
   "author": {
     "name": "アレクサンダー.eth"
   },
-  "version": "0.3.0",
+  "version": "0.4.0",
   "main": "src/scrape.ts",
-  "types": "dist/scrape.js",
+  "exports": {
+      "*":{
+          "types": "./types/scrape.d.ts",
+          "require": "./dist/scrape.js",
+          "import": "./dist/scrape.js"
+      }
+  },
   "scripts": {
+    "build": "tsup src/scrape.ts",
     "prepare": "husky install",
     "format": "run-s format:*",
     "format:prettier": "prettier --write .",
