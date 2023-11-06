@@ -5,9 +5,11 @@
     "name": "アレクサンダー.eth"
   },
   "type": "module",
-  "version": "0.18.0",
+  "version": "0.19.0",
   "tsup": {
-    "entry": ["src/scrape.ts"],
+    "entry": [
+      "src/scrape.ts"
+    ],
     "splitting": false,
     "sourcemap": true,
     "clean": true,
