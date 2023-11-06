@@ -12,6 +12,6 @@ it("Should assert value", () => {
 });
 
 it("Should return correct name", () => {
-  let name: string = "pavlovcik";
+  const name = "pavlovcik";
   assert(name == "pavlovcik");
 });
