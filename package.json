@@ -6,7 +6,7 @@
   },
   "type": "module",
   "main": "dist/scrape.js",
-  "version": "0.20.0",
+  "version": "0.21.0",
   "tsup": {
     "entry": [
       "src/scrape.ts",
