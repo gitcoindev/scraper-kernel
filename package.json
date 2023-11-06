@@ -20,7 +20,7 @@
   "types": "./dist/scrape.d.mts",
   "exports": {
     "types": "./dist/scrape.d.mts",
-    "import": "./dist/scrape.mjs"
+    "import": "./dist/scrape.js"
   },
   "scripts": {
     "build": "tsup",
