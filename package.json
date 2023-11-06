@@ -19,9 +19,9 @@
   "files": [
     "dist/*"
   ],
-  "types": "./dist/scrape.d.mts",
+  "types": "./dist/scrape.d.ts",
   "exports": {
-    "types": "./dist/scrape.d.mts",
+    "types": "./dist/scrape.d.ts",
     "import": "./dist/scrape.js"
   },
   "scripts": {
