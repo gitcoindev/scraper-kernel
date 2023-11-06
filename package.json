@@ -5,7 +5,7 @@
     "name": "アレクサンダー.eth"
   },
   "type": "module",
-  "version": "0.23.0",
+  "version": "0.24.0",
   "tsup": {
     "entry": [
       "src/scrape.ts",
@@ -20,7 +20,8 @@
   "files": [
     "dist/*"
   ],
-  "main": "./dist",
+  "main": "./dist/scrape.js",
+  "module": "./dist/scrape.js",
   "exports": {
     "scrape": {
       "types": "./dist/scrape.d.ts",
