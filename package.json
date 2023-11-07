@@ -5,7 +5,7 @@
     "name": "アレクサンダー.eth"
   },
   "type": "module",
-  "version": "0.26.0",
+  "version": "0.27.0",
   "tsup": {
     "entry": [
       "src/scrape.ts",
@@ -18,17 +18,18 @@
     "format": "esm"
   },
   "files": [
+    "src/*",
     "dist/*"
   ],
   "main": "./dist/scrape.js",
   "exports": {
     "./scrape": {
       "types": "./dist/scrape.d.ts",
-      "import": "./dist/scrape.js"
+      "default": "./dist/scrape.js"
     },
     "./logging": {
       "types": "./dist/logging.d.ts",
-      "import": "./dist/logging.js"
+      "default": "./dist/logging.js"
     }
   },
   "scripts": {
