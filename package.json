@@ -5,7 +5,7 @@
     "name": "アレクサンダー.eth"
   },
   "type": "module",
-  "version": "0.29.0",
+  "version": "0.30.0",
   "tsup": {
     "entry": [
       "src/scrape.ts",
@@ -26,7 +26,7 @@
       ".": [
         "./dist/scrape.d.ts"
       ],
-      "./logging": [
+      "logging": [
         "./dist/logging.d.ts"
       ]
     }
